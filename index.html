@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<link rel="stylesheet" href="/style/style.css">
+	<link rel="stylesheet" href="/style/all.css">
+	<title>Frontend Mentor</title>
+	<script src="https://kit.fontawesome.com/b37dc67e3e.js" crossorigin="anonymous"></script>
+	<script src="/script/all.js"></script>
+	<script src="/script/app.js"></script>
+</head>
+<body>
+	<div class ="flex">
+		<h1 class="nav_logo">snap</h1>
+
+	<header class ="menu_section">
+		<nav class="navbar">
+		<span class ="navbar_left">
+			<ul class="navbar_menu">
+				<li class="menu_item">
+
+					<a class ="dropdown">Features <i class="fa-solid fa-chevron-down dropdown" ></i></a>
+					<div class="sub_menu_list">
+						<div class="sub_menu">
+							<p><i class="fa-solid fa-clipboard-list"></i></p>
+							<h4>Todo list</h4>
+						</div>
+						<div class="sub_menu">
+							<p><i class="fa-regular fa-calendar-days "></i></p>
+							<h4>Calendar</h4>
+						</div>
+						<div class="sub_menu">
+							<p><i class="fa-regular fa-bell " ></i></p>
+							<h4>Reminders</h4>
+						</div>
+						<div class="sub_menu">
+							<p><i class="fa-regular fa-clock"></i></p>
+							<h4>Planning</h4>
+						</div>
+					</div>
+				</li>
+				<li class="menu_item">
+
+					<a class ="dropdown">Company <i class="fa-solid fa-chevron-down dropdown"></i></a>
+					<div class="sub_menu_list">
+						<div class="sub_menu"><h4>History</h4></div>
+						<div class="sub_menu"><h4>Our Team</h4></div>
+						<div class="sub_menu"><h4>Blog</h4></div>
+					</div>
+				</li>
+				<li class="menu_item"><a>Career</a></li>
+				<li class="menu_item"><a>About</a></li>
+			</ul>
+		</span>
+			<div class ="login">
+				<button class ="btn">Login</button>
+				<button class ="btn reg">Register</button>
+			</div>
+		</nav>
+		<div class ="menu_toggle on" onclick="menu_vertical()">
+			<div class="one"></div>
+			<div class="two"></div>
+			<div class="three"></div>
+		</div>
+	</header>
+</div>
+	<section class ="section">
+		<div class ="left">
+			<h1 class ="title">Make <br>remote work</h1>
+			<h3 class ="content">Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</h3>
+			<a class="btn2"> Learn More </a>
+			<div class ="clientes">
+				<div class ="client"><img src="/images/client-databiz.svg" alt="client-databiz"></div>
+				<div class ="client"><img src="/images/client-audiophile.svg" alt="client-audiophile"></div>
+				<div class ="client"><img src="/images/client-meet.svg" alt="client-meet"></div>
+				<div class ="client"><img src="/images/client-maker.svg" alt="client-maker"></div>
+			</div>
+		</div>
+		<div class ="right">
+		</div>
+	</section>
+	<footer>
+	</footer>
+	</div>
+</body>
+</html>
