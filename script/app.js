@@ -29,7 +29,6 @@ function menu_vertical(){
 
 	const menuSection = document.querySelector(".menu_section")
 	const menuToggle = document.querySelector(".menu_toggle")
-
 	document.body.style.overflow = show ? "hidden" : "initial"
 	if(show == true){
 		document.querySelector(".section").style.opacity ="0.5"

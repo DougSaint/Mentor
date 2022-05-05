@@ -169,9 +169,6 @@ section{
 	margin-top: 10vh;
 }
 
-.left{
-	border: 2px solid red;
-}
 
 .right{
 	background-image: url(/images/image-hero-desktop.png);
@@ -227,6 +224,17 @@ section{
 
 .client img{
 	width: 100%;
+}
+.me{
+	position: absolute;
+	bottom: 0;
+	margin-left: 5%;
+	color: hsl(0, 0%, 8%);
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	transition: 0.5s all;
+}
+.me:hover{
+	color: darkkhaki;
 }
 
 /* Responsividade ----------> */
