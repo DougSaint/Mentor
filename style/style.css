@@ -171,7 +171,7 @@ section{
 
 
 .right{
-	background-image: url(./images/image-hero-desktop.png);
+	background-image: url(/images/image-hero-desktop.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	min-width: 250px;
